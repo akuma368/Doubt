@@ -2,7 +2,7 @@ from selenium.webdriver.common.by import By
 from Config.config import TestData
 from Pages.BasicPage import BasicPage
 from Pages.FormPage import FormPage
-from Pages.LoginPage import LoginPage
+#from Pages.LoginPage import LoginPage
 
 class ProjectPage(BasicPage):
     TEXTS = (By.XPATH, "//*[text()= 'Web Automation Students (Selenium, Protractor & Cypress) can use below links for Practice']")

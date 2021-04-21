@@ -2,6 +2,7 @@ from selenium.webdriver.common.by import By
 from Config.config import TestData
 from Pages.BasicPage import BasicPage
 
+
 class FormPage(BasicPage):
 
     HOME = (By.XPATH,"//a[@href = '/angularpractice']")
